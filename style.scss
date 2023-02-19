@@ -2,9 +2,12 @@
 @import "./scss/base/reset";
 @import "./scss/utils/vars";
 @import "./scss/base/common";
+@import "./scss/utils/placeholders";
 @import "./scss/utils/mixins";
 
 @import "./scss/components/header";
+@import "./scss/components/work";
+@import "./scss/components/about";
 @import "./scss/components/services";
 @import "./scss/components/tasty";
 @import "./scss/components/contact";

@@ -1,0 +1,33 @@
+.about {
+  padding-top: 50px;
+  background: linear-gradient(
+    to right,
+    $primaryColor 0%,
+    $primaryColor 65%,
+    $secondaryColor 65%,
+    $secondaryColor 100%
+  );
+  &__wrapper {
+    @extend %flex;
+    max-height: 740px;
+  }
+  &__text-wrapper {
+    max-width: 508px;
+    margin-right: 50px;
+    text-align: start;
+  }
+  &__title {
+    text-align: start;
+    margin-bottom: 50px;
+  }
+  &__info {
+    margin-bottom: 42px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.44;
+    color: $secondaryColor;
+  }
+  &__img {
+    border-radius: 10px;
+  }
+}
