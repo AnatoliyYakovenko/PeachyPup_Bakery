@@ -5,39 +5,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
+    <title>Bakery</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Sen:wght@700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
     <div class="container">
-        <header>
-            <a class="logo" href="./index.html"><svg class="logo__icon" width="53" height="52">
+        <header class="header">
+            <a class="header__logo" href="./index.html"><svg class="logo__icon" width="53" height="52">
                     <use href="./images/icons.svg#logo"></use>
                 </svg>peachy pup bakery</a>
             <div class="hero">
                 <h1 class="hero__title">tasty pastries</h1>
-                <p class="hero__info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                <p class="hero__info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum
                     has
                     been the industry's standard dummy text ever since the</p>
                 <button type="button" class="button">see more</button>
             </div>
             <ul class="social">
-                <li class="social__item"><a class="social__link" href="#"><svg class="social__icon" width="24" height="24">
+                <li class="social__item"><a class="social__link" href="#"><svg class="social__icon" width="24"
+                            height="24">
                             <use href="./images/icons.svg#logo"></use>
                         </svg></a></li>
-                <li class="social__item"><a class="social__link" href="#"><svg class="social__icon" width="24" height="24">
+                <li class="social__item"><a class="social__link" href="#"><svg class="social__icon" width="24"
+                            height="24">
                             <use href="./images/icons.svg#logo"></use>
                         </svg></a></li>
-                <li class="social__item"><a class="social__link" href="#"><svg class="social__icon" width="24" height="24">
+                <li class="social__item"><a class="social__link" href="#"><svg class="social__icon" width="24"
+                            height="24">
                             <use href="./images/icons.svg#logo"></use>
                         </svg></a></li>
-                <li class="social__item"><a class="social__link" href="#"><svg class="social__icon" width="24" height="24">
+                <li class="social__item"><a class="social__link" href="#"><svg class="social__icon" width="24"
+                            height="24">
                             <use href="./images/icons.svg#logo"></use>
                         </svg></a></li>
             </ul>
@@ -45,9 +50,10 @@
         </header>
         <main>
             <section class="work">
-                <h2 class="work__title">how we
+                <h2 class="section-title work__title">how we
                     work</h2>
-                <p class="work__info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                <p class="work__info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum
                     has been the industry's standard dummy text ever since the</p>
                 <ul class="work__list">
                     <li class="work__item">
@@ -68,56 +74,77 @@
                 <button type="button" class="button">contact us</button>
             </section>
             <section class="about">
-                <h2 class="about__title">about us</h2>
+                <h2 class="section-title about__title">about us</h2>
                 <p class="about__info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                    galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
-                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+                    a
+                    galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries,
+                    but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+                    in
+                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                    with
                     desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 <button type="button" class="button">contact us</button>
                 <img src="./images/cook.jpg" alt="cook is staying behind the table with rolling pin in his hands">
             </section>
             <section class="service">
-                <h2 class="service__title">services</h2>
+                <h2 class="section-title service__title">services</h2>
                 <ul class="service__list">
                     <li class="service__item">
-                        <a class="service_link" href="#">
-                            <img class="service_img" src="./images/services1.jpg" alt="chocolate muffin">
-                            <h3 class="service_subtitle">Lorem Ipsum</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                                been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+
+                        <img class="service__img" src="./images/services1.jpg" alt="chocolate muffin">
+                        <div class="service__info-wrap">
+                            <h3 class="service__subtitle">Lorem Ipsum</h3>
+                            <p class="service__info">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
                                 galley of type and scrambled</p>
-                        </a>
+                        </div>
+
                     </li>
                     <li class="service__item">
-                        <a class="service_link" href="#">
-                            <img class="service_img" src="./images/services2.jpg" alt="bread with flour on it">
-                            <h3 class="service_subtitle">Lorem Ipsum</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                                been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+
+                        <img class="service__img" src="./images/services2.jpg" alt="bread with flour on it">
+                        <div class="service__info-wrap">
+                            <h3 class="service__subtitle">Lorem Ipsum</h3>
+                            <p class="service__info">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
                                 galley of type and scrambled</p>
-                        </a>
+                        </div>
+
                     </li>
                     <li class="service__item">
-                        <a class="service_link" href="#">
-                            <img class="service_img" src="./images/services3.jpg" alt="buns on the desk with ears of corn">
-                            <h3 class="service_subtitle">Lorem Ipsum</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                                been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+
+                        <img class="service__img" src="./images/services3.jpg" alt="buns on the desk with ears of corn">
+                        <div class="service__info-wrap">
+                            <h3 class="service__subtitle">Lorem Ipsum</h3>
+                            <p class="service__info">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum
+                                has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
                                 galley of type and scrambled</p>
-                        </a>
-                        <button type="button" class="button">contact us</button>
+                        </div>
+
                     </li>
                 </ul>
+                <button type="button" class="button">contact us</button>
             </section>
             <section class="tasty">
-                <h2 class="tasty__title">testymonials</h2>
+                <h2 class="section-title tasty__title">testymonials</h2>
                 <ul class="tasty__list">
                     <li class="tasty__item">
-                        <h3 class="tasty__subtitle"></h3>
-                        <p class="tasty__info"></p>
-                        <ul class="">
+                        <h3 class="tasty__subtitle">Kathryn Murphy</h3>
+                        <p class="tasty__info">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley of type and scrambled</p>
+                        <ul class="tasty__stars">
                             <li><svg class="testy__icon" width="18" height="18">
                                     <use href="./images/#icon-star"></use>
                                 </svg></li>
@@ -136,9 +163,11 @@
                         </ul>
                     </li>
                     <li class="tasty__item">
-                        <h3 class="tasty__subtitle"></h3>
-                        <p class="tasty__info"></p>
-                        <ul>
+                        <h3 class="tasty__subtitle">Kathryn Murphy</h3>
+                        <p class="tasty__info">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley of type and scrambled</p>
+                        <ul class="tasty__stars">
                             <li><svg class="testy__icon" width="18" height="18">
                                     <use href="./images/#icon-star"></use>
                                 </svg></li>
@@ -157,9 +186,11 @@
                         </ul>
                     </li>
                     <li class="tasty__item">
-                        <h3 class="tasty__subtitle"></h3>
-                        <p class="tasty__info"></p>
-                        <ul>
+                        <h3 class="tasty__subtitle">Kathryn Murphy</h3>
+                        <p class="tasty__info">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley of type and scrambled</p>
+                        <ul class="tasty__stars">
                             <li><svg class="testy__icon" width="18" height="18">
                                     <use href="./images/#icon-star"></use>
                                 </svg></li>
@@ -178,9 +209,11 @@
                         </ul>
                     </li>
                     <li class="tasty__item">
-                        <h3 class="tasty__subtitle"></h3>
-                        <p class="tasty__info"></p>
-                        <ul>
+                        <h3 class="tasty__subtitle">Kathryn Murphy</h3>
+                        <p class="tasty__info">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley of type and scrambled</p>
+                        <ul class="tasty__stars">
                             <li><svg class="testy__icon" width="18" height="18">
                                     <use href="./images/#icon-star"></use>
                                 </svg></li>
@@ -202,33 +235,36 @@
                 <button type="button" class="button">contact us</button>
             </section>
         </main>
-        <footer class="footer">
-            <h2 class="footer__title">contact us</h2>
-            <form class="footer__form">
-                <input class="footer__input" type="text" name="name" placeholder="Enter your name" />
-                <input class="footer__input" type="tel" name="phone_number" placeholder="Enter your phone number" />
-                <input class="footer__input" type="email" name="email" placeholder="Enter your email" />
-                <button class="button footer__submit-btn" type="submit">Submit</button>
-            </form>
-            <ul>
-                <li><svg class="testy__icon" width="24" height="24">
-                        <use href="./images/#icon-mail"></use>
-                    </svg>
-                    <p>test@gmail.com</p>
-                </li>
-                <li><svg class="testy__icon" width="24" height="24">
-                        <use href="./images/#icon-call"></use>
-                    </svg>
-                    <p>(303) 555-0105</p>
-                </li>
-                <li><svg class="testy__icon" width="24" height="24">
-                        <use href="./images/#icon-location"></use>
-                    </svg>
-                    <p>2715 Ash Dr. San Jose, South Dakota 83475</p>
-                </li>
-            </ul>
-            <div class="footer__box"></div>
-        </footer>
+        <section class="contact">
+            <h2 class="section-title contact__title">contact us</h2>
+            <div class="contact__wrapper">
+                <form class="contact__form">
+                    <input class="contact__input" type="text" name="name" placeholder="Enter your name" />
+                    <input class="contact__input" type="tel" name="phone_number"
+                        placeholder="Enter your phone number" />
+                    <input class="contact__input" type="email" name="email" placeholder="Enter your email" />
+                    <button class="button contact__submit-btn" type="submit">Submit</button>
+                </form>
+                <ul class="contact__contacts">
+                    <li><svg class="contact__icon" width="24" height="24">
+                            <use href="./images/#icon-mail"></use>
+                        </svg>
+                        <p>test@gmail.com</p>
+                    </li>
+                    <li><svg class="contact__icon" width="24" height="24">
+                            <use href="./images/#icon-call"></use>
+                        </svg>
+                        <p>(303) 555-0105</p>
+                    </li>
+                    <li><svg class="contact__icon" width="24" height="24">
+                            <use href="./images/#icon-location"></use>
+                        </svg>
+                        <p>2715 Ash Dr. San Jose, South Dakota 83475</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div class="footer"></div>
     </div>
 </body>
 

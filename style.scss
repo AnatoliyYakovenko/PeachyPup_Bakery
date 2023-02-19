@@ -1,1 +1,11 @@
-@import ".normalize";
+@import "./scss/base/normalize";
+@import "./scss/base/reset";
+@import "./scss/utils/vars";
+@import "./scss/base/common";
+@import "./scss/utils/mixins";
+
+@import "./scss/components/header";
+@import "./scss/components/services";
+@import "./scss/components/tasty";
+@import "./scss/components/contact";
+@import "./scss/components/footer";

@@ -1,0 +1,42 @@
+.tasty {
+  padding-top: 86px;
+  background-color: $primaryColor;
+  background-image: url(../../images/mask_tasty\ .png);
+  &__title {
+    margin-bottom: 80px;
+  }
+  &__subtitle {
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  &__info {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.43;
+    color: $infoColor;
+  }
+  &__list {
+    max-width: 1150px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  &__item {
+    text-align: start;
+    max-width: 512px;
+    padding: 20px 50px;
+    background-color: $secondaryColor;
+    border-radius: 30px;
+  }
+  &__stars {
+    display: flex;
+  }
+}
