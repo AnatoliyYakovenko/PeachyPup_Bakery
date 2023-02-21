@@ -1,3 +1,85 @@
 .header {
-  background-color: $primaryColor;
+  padding-top: 26px;
+  padding-bottom: 20px;
+  padding-left: 352px;
+  // height: 840px;
+  // mask-image: url(../../images/body_text_whpng.png);
+  // mask-repeat: no-repeat;
+  // mask-size: 252px;
+  // mask-position: top 253px right 366px;
+
+  background-image: url(../../images/text_pcolor.png),
+    url(../../images/body_text_whpng.png), url(../../images/quality.png),
+    url(../../images/bread.png), url(../../images/small.jpg),
+    url(../../images/mask_group_header.jpg),
+    url(../../images/ellipse_header.png), url(../../images/header_bg_pr.jpg);
+
+  background-size: 466px, 466px, 188px, 666px, 449px, 689px, 1064px, 1214px;
+  background-repeat: no-repeat;
+  background-position: top 253px right 366px, top 253px right 366px,
+    top 605px right 595px, top 320px right 351px, bottom -8px left 0px,
+    top 0px right 0px, center, top 0px left 1px;
+
+  &__logo {
+    max-width: 248px;
+  }
+  &__logo-text {
+    max-width: 179px;
+    font-family: "Sen";
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.21;
+    text-transform: uppercase;
+    color: $secondaryColor;
+  }
+}
+.hero {
+  padding-top: 194px;
+  padding-bottom: 96px;
+  display: block;
+  max-width: 621px;
+
+  &__title {
+    margin-bottom: 20px;
+    font-family: "Sen";
+    font-weight: 800;
+    font-size: 74px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: $secondaryColor;
+  }
+  &__info {
+    margin-bottom: 38px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.44;
+    color: $secondaryColor;
+  }
+}
+.social {
+  display: flex;
+  &__list {
+    @extend %flex;
+    flex-direction: column;
+    max-width: 25px;
+    gap: 12px;
+    margin-right: 57px;
+    margin-left: 36px;
+  }
+  &__phone {
+    margin-top: auto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.44;
+    letter-spacing: 0.15em;
+    color: $secondaryColor;
+  }
+  &__phone-span {
+    margin-right: 19px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.44;
+    color: $secondaryColor;
+  }
 }

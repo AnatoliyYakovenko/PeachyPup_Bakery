@@ -1,13 +1,18 @@
 .work {
   padding-top: 50px;
 
-  background: linear-gradient(
-    to right,
-    $secondaryColor 0%,
-    $secondaryColor 35%,
-    $primaryColor 35%,
-    $primaryColor 100%
-  );
+  // background: linear-gradient(
+  //   to right,
+  //   $secondaryColor 0%,
+  //   $secondaryColor 35%,
+  //   $primaryColor 35%,
+  //   $primaryColor 100%
+  // );
+  background-image: url(../../images/work_mask.png),
+    url(../../images/work_bg_pr.png);
+  background-repeat: no-repeat;
+  // background-size: auto 850px;
+  background-position: top 0px left 0px, top 0px right 0px;
 
   &__info-wrapper {
     @extend %flex;

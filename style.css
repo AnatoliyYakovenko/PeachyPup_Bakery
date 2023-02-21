@@ -160,6 +160,7 @@ ul {
 }
 
 img {
+  margin: 0;
   padding: 0;
 }
 
@@ -188,6 +189,7 @@ section {
 }
 
 svg {
+  padding-bottom: 0px;
   fill: #c98a40;
 }
 
@@ -212,19 +214,88 @@ svg {
   color: #ffffff;
 }
 
-.about__wrapper, .work__list, .work__info-wrapper {
+.about__wrapper, .work__list, .work__info-wrapper, .social__list {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .header {
-  background-color: #c98a40;
+  padding-top: 26px;
+  padding-bottom: 20px;
+  padding-left: 352px;
+  background-image: url(../../images/text_pcolor.png), url(../../images/body_text_whpng.png), url(../../images/quality.png), url(../../images/bread.png), url(../../images/small.jpg), url(../../images/mask_group_header.jpg), url(../../images/ellipse_header.png), url(../../images/header_bg_pr.jpg);
+  background-size: 466px, 466px, 188px, 666px, 449px, 689px, 1064px, 1214px;
+  background-repeat: no-repeat;
+  background-position: top 253px right 366px, top 253px right 366px, top 605px right 595px, top 320px right 351px, bottom -8px left 0px, top 0px right 0px, center, top 0px left 1px;
+}
+.header__logo {
+  max-width: 248px;
+}
+.header__logo-text {
+  max-width: 179px;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.21;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero {
+  padding-top: 194px;
+  padding-bottom: 96px;
+  display: block;
+  max-width: 621px;
+}
+.hero__title {
+  margin-bottom: 20px;
+  font-family: "Sen";
+  font-weight: 800;
+  font-size: 74px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero__info {
+  margin-bottom: 38px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.44;
+  color: #ffffff;
+}
+
+.social {
+  display: flex;
+}
+.social__list {
+  flex-direction: column;
+  max-width: 25px;
+  gap: 12px;
+  margin-right: 57px;
+  margin-left: 36px;
+}
+.social__phone {
+  margin-top: auto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+}
+.social__phone-span {
+  margin-right: 19px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.44;
+  color: #ffffff;
 }
 
 .work {
   padding-top: 50px;
-  background: linear-gradient(to right, #ffffff 0%, #ffffff 35%, #c98a40 35%, #c98a40 100%);
+  background-image: url(../../images/work_mask.png), url(../../images/work_bg_pr.png);
+  background-repeat: no-repeat;
+  background-position: top 0px left 0px, top 0px right 0px;
 }
 .work__info-wrapper {
   flex-direction: row-reverse;
@@ -252,8 +323,9 @@ svg {
 }
 
 .about {
+  background-image: url(../../images/work_bg_pr.png);
+  background-repeat: no-repeat;
   padding-top: 50px;
-  background: linear-gradient(to right, #c98a40 0%, #c98a40 65%, #ffffff 65%, #ffffff 100%);
 }
 .about__wrapper {
   max-height: 740px;
@@ -318,7 +390,7 @@ svg {
 .tasty {
   padding-top: 86px;
   background-color: #c98a40;
-  background-image: url(../../images/mask_tasty\ .png);
+  background-image: url(../../images/tastymonlials.png);
 }
 .tasty__title {
   margin-bottom: 80px;
