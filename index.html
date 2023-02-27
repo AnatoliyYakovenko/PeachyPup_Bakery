@@ -17,7 +17,11 @@
 <body>
     <div class="container">
         <header class="header">
-            <a class="header__logo" href="./index.html"> <img src="./images/logo.png" alt="logo of bakary">
+            <img class="header__img1" src="./images/bread.png" alt="bread">
+            <img class="header__img2" src="./images/quality.png" alt="quality stamp">
+            <img class="header__img3" src="./images/body_text_wh.png" alt="text is above the bread white color">
+            <img class="header__img4" src="./images/text_color.png" alt="text is above the bread orange color">
+            <a class="header__logo" href="./index.html"> <img src="./images/logo.png" alt="logo of bakery">
                 <span class="header__logo-text">peachy
                     pup
                     bakery</span></a>
@@ -81,7 +85,7 @@
                         <img class="work__img" src="./images/bakary4.jpg" alt="many sweaty bakery products">
                     </li>
                 </ul>
-                <button type="button" class="button">contact us</button>
+                <button type="button" class="button work__btn">contact us</button>
             </section>
             <section class="about">
                 <div></div>
@@ -98,12 +102,12 @@
                             galley of type and scrambled it to make a type specimen book. It has survived not only five
                             centuries,
                             but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                            popularised
+                            popularized
                             in
-                            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                            the 1960s with the release of Leeriest sheets containing Lorem Ipsum passages, and more
                             recently
                             with
-                            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            desktop publishing software like Aldose PageMaker including versions of Lorem Ipsum.</p>
                         <button type="button" class="button">contact us</button>
                     </div>
                     <img class="about__img" src="./images/cook.jpg"
@@ -159,7 +163,7 @@
                 <button type="button" class="button">contact us</button>
             </section>
             <section class="tasty">
-                <h2 class="section-title tasty__title">testymonials</h2>
+                <h2 class="section-title tasty__title">testimonials</h2>
                 <ul class="tasty__list">
                     <li class="tasty__item">
                         <h3 class="tasty__subtitle">Kathryn Murphy</h3>
@@ -264,29 +268,36 @@
                     <input class="contact__input" type="text" name="name" placeholder="Enter your name" />
                     <input class="contact__input" type="tel" name="phone_number"
                         placeholder="Enter your phone number" />
-                    <input class="contact__input" type="email" name="email" placeholder="Enter your email" />
+                    <input class="contact__input" type="email" required name="email" placeholder="Enter your email" />
                     <button class="button contact__submit-btn" type="submit">Submit</button>
                 </form>
-                <ul class="contact__contacts">
-                    <li><svg class="contact__icon" width="24" height="24">
-                            <use href="./images/#icon-mail"></use>
-                        </svg>
-                        <p>test@gmail.com</p>
+                <ul class="contact__list">
+                    <li class="contact__item"><a class="contact__link" href="mailto:test@gmail.com">
+                            <svg class="contact__icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-mail"></use>
+                            </svg>test@gmail.com</a>
                     </li>
-                    <li><svg class="contact__icon" width="24" height="24">
-                            <use href="./images/#icon-call"></use>
-                        </svg>
-                        <p>(303) 555-0105</p>
+                    <li class="contact__item"><a class="contact__link" href="tel:3035550105">
+                            <svg class="contact__icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-call"></use>
+                            </svg>
+                            (303) 555-0105
+                        </a>
                     </li>
-                    <li><svg class="contact__icon" width="24" height="24">
-                            <use href="./images/#icon-location"></use>
-                        </svg>
-                        <p>2715 Ash Dr. San Jose, South Dakota 83475</p>
+                    <li class="contact__item"><a class="contact__link" href="#">
+                            <svg class="contact__icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-location"></use>
+                            </svg>
+                            2715 Ash Dr. San Jose, South Dakota 83475
+                        </a>
                     </li>
                 </ul>
             </div>
-        </section>
+    </div>
+    </section>
+    <footer>
         <div class="footer"></div>
+    </footer>
     </div>
 </body>
 

@@ -1,14 +1,12 @@
 .about {
-  background-image: url(../../images/work_bg_pr.png);
-  background-repeat: no-repeat;
   padding-top: 50px;
-  // background: linear-gradient(
-  //   to right,
-  //   $primaryColor 0%,
-  //   $primaryColor 65%,
-  //   $secondaryColor 65%,
-  //   $secondaryColor 100%
-  // );
+  background: linear-gradient(
+    to right,
+    $primaryColor 0%,
+    $primaryColor 63.7%,
+    $secondaryColor 63.7%,
+    $secondaryColor 100%
+  );
   &__wrapper {
     @extend %flex;
     max-height: 740px;

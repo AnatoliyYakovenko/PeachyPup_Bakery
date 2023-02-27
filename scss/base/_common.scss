@@ -8,13 +8,17 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  // @media screen and (max-width: 1880px) {
+  //   max-width: 1200px;
+  // }
 }
 section {
   text-align: center;
   padding-bottom: 50px;
 }
 svg {
-  padding-bottom: 0px;
+  margin: 0;
+  padding: 0;
   fill: $primaryColor;
 }
 .button {
@@ -26,6 +30,12 @@ svg {
   color: $secondaryColor;
   background: $btnColor;
   border-radius: 30px;
+  transition: box-shadow 200ms $cubic;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.4);
+  }
 }
 .section-title {
   text-align: center;
@@ -35,4 +45,7 @@ svg {
   line-height: 96%;
   text-transform: uppercase;
   color: $secondaryColor;
+  @media screen and (max-width: 1880px) {
+    font-size: 90px;
+  }
 }

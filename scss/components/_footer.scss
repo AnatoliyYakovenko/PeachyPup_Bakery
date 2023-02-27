@@ -1,6 +1,8 @@
 .footer {
-  width: 100%;
+  max-width: 1867px;
   height: 117px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
   background-color: $footerColor;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
