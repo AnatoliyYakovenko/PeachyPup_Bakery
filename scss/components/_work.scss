@@ -10,7 +10,9 @@
       $primaryColor 100%
     );
   background-repeat: no-repeat;
-
+  @media screen and (max-width: 1880px) {
+    background-size: 535px, auto;
+  }
   // background: linear-gradient(
   //   90deg,
   //   rgba(255, 255, 255, 0.1) 0%,
@@ -22,16 +24,22 @@
   // background-repeat: no-repeat;
   // background-size: auto 850px;
   // background-position: top 0px left 0px, top 0px right 0px;
-
   &__info-wrapper {
     @extend %flex;
     flex-direction: row-reverse;
     gap: 263px;
     margin-bottom: 50px;
+
+    @media screen and (max-width: 1880px) {
+      gap: 166px;
+    }
   }
   &__title {
     text-align: end;
     max-width: 630px;
+    @media screen and (max-width: 1880px) {
+      max-width: 397px;
+    }
   }
   &__info {
     text-align: start;
@@ -50,5 +58,8 @@
 
   &__img {
     border-radius: 10px;
+    @media screen and (max-width: 1880px) {
+      max-width: 170px;
+    }
   }
 }

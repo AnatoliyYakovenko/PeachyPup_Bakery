@@ -1,9 +1,11 @@
 .header {
   position: relative;
+  outline: 0;
+  border: 0;
   padding-top: 26px;
   padding-bottom: 20px;
   padding-left: 352px;
-  background: url(../../images/mask_group_header.jpg),
+  background: url(../../images/mask_group_header.png),
     url(../../images/small.jpg),
     linear-gradient(
       to right,
@@ -13,7 +15,11 @@
       $secondaryColor 100%
     );
   background-position: top 0px right 0px, bottom -8px left 0px, top 0px left 1px;
-  background-repeat: no-repeat;
+  background-repeat: repeat, no-repeat, no-repeat;
+  @media screen and (max-width: 1880px) {
+    padding-left: 100px;
+    background-size: 434px, 283px, auto;
+  }
   // background-size: 466px, 466px, 188px, 666px, 449px, 689px, 1064px, 1214px;
   // background-repeat: no-repeat;
   // background-position: top 253px right 366px, top 253px right 366px,
@@ -24,24 +30,41 @@
     z-index: 5;
     top: 320px;
     right: 351px;
+    @media screen and (max-width: 1880px) {
+      right: 221px;
+      max-width: 333px;
+    }
   }
   &__img2 {
     position: absolute;
     z-index: 6;
     top: 605px;
     right: 595px;
+    @media screen and (max-width: 1880px) {
+      max-width: 94px;
+      top: 470px;
+      right: 337px;
+    }
   }
   &__img3 {
     position: absolute;
     z-index: 7;
     top: 253px;
     right: 366px;
+    @media screen and (max-width: 1880px) {
+      right: 230px;
+      max-width: 233px;
+    }
   }
   &__img4 {
     position: absolute;
     z-index: 8;
     top: 253px;
     right: 366px;
+    @media screen and (max-width: 1880px) {
+      right: 230px;
+      max-width: 233px;
+    }
   }
   &__logo {
     display: flex;
@@ -67,10 +90,15 @@
   }
 }
 .hero {
+  display: block;
   padding-top: 194px;
   padding-bottom: 96px;
-  display: block;
   max-width: 621px;
+  @media screen and (max-width: 1880px) {
+    max-width: 500px;
+    padding-top: 122px;
+    padding-bottom: 60px;
+  }
 
   &__title {
     margin-bottom: 20px;
@@ -80,6 +108,9 @@
     line-height: 1.2;
     text-transform: uppercase;
     color: $secondaryColor;
+    @media screen and (max-width: 1880px) {
+      font-size: 47px;
+    }
   }
   &__info {
     margin-bottom: 38px;
@@ -91,9 +122,12 @@
 }
 .social {
   display: flex;
-  &__link {
-    width: 100%;
-    height: 100%;
+  // &__link {
+  //   width: 100%;
+  //   height: 100%;
+  // }
+  @media screen and (max-width: 1880px) {
+    padding-left: 0px;
   }
   &__list {
     display: flex;
@@ -130,14 +164,7 @@
     }
   }
 }
-@media screen and (max-width: 1880px) {
-  .header {
-    padding-left: 100px;
-  }
-  .social {
-    padding-left: 250px;
-  }
-}
+
 // @media screen and (max-width: 1640px) {
 //   .social {
 //     padding-left: 250px;

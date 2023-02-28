@@ -5,4 +5,8 @@
   padding-left: 15px;
   padding-right: 15px;
   background-color: $footerColor;
+  @media screen and (max-width: 1880px) {
+    max-width: 1067px;
+    flex-wrap: wrap;
+  }
 }
