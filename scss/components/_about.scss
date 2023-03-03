@@ -15,6 +15,9 @@
     max-width: 508px;
     margin-right: 50px;
     text-align: start;
+    @media screen and (max-width: 1880px) {
+      max-width: 320px;
+    }
   }
   &__title {
     text-align: start;
@@ -26,6 +29,9 @@
     font-size: 18px;
     line-height: 1.44;
     color: $secondaryColor;
+    @media screen and (max-width: 1880px) {
+      font-size: 12px;
+    }
   }
   &__img {
     border-radius: 10px;

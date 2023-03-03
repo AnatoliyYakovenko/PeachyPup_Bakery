@@ -2,6 +2,9 @@
   padding-top: 86px;
   background-color: $primaryColor;
   background-image: url(../../images/mask_tasty.png);
+  @media screen and (max-width: 1880px) {
+    background-size: 1700px;
+  }
   &__title {
     margin-bottom: 80px;
   }
@@ -28,7 +31,7 @@
     justify-content: center;
     gap: 50px;
     @media screen and (max-width: 1880px) {
-      max-width: 725px;
+      max-width: 800px;
       flex-wrap: wrap;
     }
   }
@@ -40,7 +43,7 @@
     background-color: $secondaryColor;
     border-radius: 30px;
     @media screen and (max-width: 1880px) {
-      max-width: 323px;
+      max-width: 360px;
     }
   }
   &__stars {

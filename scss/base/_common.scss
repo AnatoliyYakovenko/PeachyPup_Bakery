@@ -31,6 +31,10 @@ svg {
   background: $btnColor;
   border-radius: 30px;
   transition: box-shadow 200ms $cubic;
+  @media screen and (max-width: 1880px) {
+    padding: 12px 33px;
+    font-size: 12px;
+  }
 
   &:hover {
     cursor: pointer;
