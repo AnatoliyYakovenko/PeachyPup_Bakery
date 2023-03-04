@@ -29,7 +29,7 @@
       bottom -8px left 0px, top 0px left 1px;
     padding-bottom: 10px;
     padding-left: 100px;
-    background-size: 441px, 500px, 350px, auto;
+    background-size: 441px, 500px, 300px, auto;
   }
   &__logo-img {
     @media screen and (max-width: 1880px) {
@@ -159,7 +159,7 @@
 .social {
   display: flex;
   @media screen and (max-width: 1880px) {
-    padding-left: 150px;
+    padding-left: 120px;
   }
   &__list {
     display: flex;
@@ -169,7 +169,7 @@
     margin-right: 57px;
     margin-left: 36px;
     @media screen and (max-width: 1880px) {
-      gap: 3px;
+      gap: 1px;
     }
   }
   &__phone {

@@ -15,7 +15,8 @@
     );
   background-repeat: no-repeat;
   @media screen and (max-width: 1880px) {
-    background-size: 535px, auto;
+    background-size: 456px, auto;
+    background-repeat: repeat-y, no-repeat;
   }
   &__info-wrapper {
     @extend %flex;

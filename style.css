@@ -258,7 +258,7 @@ svg {
     background-position: top 20px right 357px, top 0px right 0px, bottom -8px left 0px, top 0px left 1px;
     padding-bottom: 10px;
     padding-left: 100px;
-    background-size: 441px, 500px, 350px, auto;
+    background-size: 441px, 500px, 300px, auto;
   }
 }
 @media screen and (max-width: 1880px) {
@@ -409,7 +409,7 @@ svg {
 }
 @media screen and (max-width: 1880px) {
   .social {
-    padding-left: 150px;
+    padding-left: 120px;
   }
 }
 .social__list {
@@ -422,7 +422,7 @@ svg {
 }
 @media screen and (max-width: 1880px) {
   .social__list {
-    gap: 3px;
+    gap: 1px;
   }
 }
 .social__phone {
@@ -474,7 +474,8 @@ svg {
 }
 @media screen and (max-width: 1880px) {
   .work {
-    background-size: 535px, auto;
+    background-size: 456px, auto;
+    background-repeat: repeat-y, no-repeat;
   }
 }
 .work__info-wrapper {
