@@ -184,7 +184,7 @@ body {
 }
 @media screen and (max-width: 1880px) {
   .container {
-    max-width: 1090px;
+    max-width: 1020px;
   }
 }
 
@@ -255,7 +255,7 @@ svg {
 }
 @media screen and (max-width: 1880px) {
   .header {
-    background-position: top 20px right 383px, top 0px right 0px, bottom -8px left 0px, top 0px left 1px;
+    background-position: top 20px right 357px, top 0px right 0px, bottom -8px left 0px, top 0px left 1px;
     padding-bottom: 10px;
     padding-left: 100px;
     background-size: 441px, 500px, 350px, auto;
@@ -276,7 +276,7 @@ svg {
 @media screen and (max-width: 1880px) {
   .header__img1 {
     top: 250px;
-    right: 221px;
+    right: 191px;
     max-width: 333px;
   }
 }
@@ -290,7 +290,7 @@ svg {
   .header__img2 {
     max-width: 94px;
     top: 400px;
-    right: 337px;
+    right: 307px;
   }
 }
 .header__img3 {
@@ -302,7 +302,7 @@ svg {
 @media screen and (max-width: 1880px) {
   .header__img3 {
     top: 215px;
-    right: 220px;
+    right: 190px;
     max-width: 233px;
   }
 }
@@ -315,7 +315,7 @@ svg {
 @media screen and (max-width: 1880px) {
   .header__img4 {
     top: 215px;
-    right: 220px;
+    right: 190px;
     max-width: 233px;
   }
 }
