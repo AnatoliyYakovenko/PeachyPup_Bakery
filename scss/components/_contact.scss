@@ -23,6 +23,11 @@
     background: $formColor;
     border: none;
     border-radius: 61px;
+    &::placeholder {
+      font-size: 14px;
+      color: $infoColor;
+      opacity: 0.4;
+    }
   }
   &__submit-btn {
     width: 168px;

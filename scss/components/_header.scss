@@ -5,8 +5,8 @@
   padding-top: 26px;
   padding-bottom: 20px;
   padding-left: 352px;
-  background: url(../../images/mask_group_header.png),
-    url(../../images/small.jpg),
+  background: url(../../images/ellipse_hero.png),
+    url(../../images/mask_group_header.png), url(../../images/small.jpg),
     linear-gradient(
       to right,
       $primaryColor 0%,
@@ -14,12 +14,15 @@
       $secondaryColor 63.7%,
       $secondaryColor 100%
     );
-  background-position: top 0px right 0px, bottom -8px left 0px, top 0px left 1px;
+  background-position: top 20px right 679px, top 0px right 0px,
+    bottom -8px left 0px, top 0px left 1px;
   background-repeat: no-repeat;
   @media screen and (max-width: 1880px) {
+    background-position: top 20px right 383px, top 0px right 0px,
+      bottom -8px left 0px, top 0px left 1px;
     padding-bottom: 10px;
     padding-left: 100px;
-    background-size: 500px, 350px, auto;
+    background-size: 441px, 500px, 350px, auto;
   }
   &__logo-img {
     @media screen and (max-width: 1880px) {
@@ -53,7 +56,7 @@
     position: absolute;
     z-index: 7;
     top: 253px;
-    right: 366px;
+    right: 355px;
     @media screen and (max-width: 1880px) {
       top: 215px;
       right: 220px;
@@ -64,7 +67,18 @@
     position: absolute;
     z-index: 8;
     top: 253px;
-    right: 366px;
+    right: 355px;
+    @media screen and (max-width: 1880px) {
+      top: 215px;
+      right: 220px;
+      max-width: 233px;
+    }
+  }
+  &__img5 {
+    position: absolute;
+    z-index: 4;
+    top: 20px;
+    right: 680px;
     @media screen and (max-width: 1880px) {
       top: 215px;
       right: 220px;
@@ -124,6 +138,7 @@
     }
   }
   &__info {
+    max-width: 552px;
     margin-bottom: 38px;
     font-weight: 600;
     font-size: 18px;

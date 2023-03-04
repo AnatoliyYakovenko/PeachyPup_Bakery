@@ -1,5 +1,8 @@
 .service {
-  padding-top: 58px 352px;
+  padding: 50px 352px;
+  @media screen and (max-width: 1880px) {
+    padding: 50px 20px;
+  }
   &__title {
     color: $primaryColor;
   }
