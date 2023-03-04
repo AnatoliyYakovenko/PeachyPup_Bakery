@@ -249,7 +249,7 @@ svg {
   padding-top: 26px;
   padding-bottom: 20px;
   padding-left: 352px;
-  background: url(../images/ellipse_hero.png), url(../images/mask_group_header.png), url(../images/small.jpg), linear-gradient(to right, #c98a40 0%, #c98a40 63.7%, #ffffff 63.7%, #ffffff 100%);
+  background: url(./images/ellipse_hero.png), url(./images/mask_group_header.png), url(./images/small.jpg), linear-gradient(to right, #c98a40 0%, #c98a40 63.7%, #ffffff 63.7%, #ffffff 100%);
   background-position: top 20px right 679px, top 0px right 0px, bottom -8px left 0px, top 0px left 1px;
   background-repeat: no-repeat;
 }
@@ -625,7 +625,7 @@ svg {
 .tasty {
   padding-top: 86px;
   background-color: #c98a40;
-  background-image: url(../../images/mask_tasty.png);
+  background-image: url(./images/mask_tasty.png);
 }
 @media screen and (max-width: 1880px) {
   .tasty {
