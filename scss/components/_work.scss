@@ -1,6 +1,11 @@
 .work {
   padding-top: 50px;
   background: url(../../images/work_mask.png),
+    -webkit-gradient(linear, left top, right top, from($secondaryColor), color-stop(36.3%, $secondaryColor), color-stop(36.3%, $primaryColor), to($primaryColor));
+  background: url(../../images/work_mask.png),
+    -o-linear-gradient(left, $secondaryColor 0%, $secondaryColor 36.3%, $primaryColor
+          36.3%, $primaryColor 100%);
+  background: url(../../images/work_mask.png),
     linear-gradient(
       to right,
       $secondaryColor 0%,

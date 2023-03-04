@@ -7,6 +7,13 @@
   padding-left: 352px;
   background: url(../../images/ellipse_hero.png),
     url(../../images/mask_group_header.png), url(../../images/small.jpg),
+    -webkit-gradient(linear, left top, right top, from($primaryColor), color-stop(63.7%, $primaryColor), color-stop(63.7%, $secondaryColor), to($secondaryColor));
+  background: url(../../images/ellipse_hero.png),
+    url(../../images/mask_group_header.png), url(../../images/small.jpg),
+    -o-linear-gradient(left, $primaryColor 0%, $primaryColor 63.7%, $secondaryColor
+          63.7%, $secondaryColor 100%);
+  background: url(../../images/ellipse_hero.png),
+    url(../../images/mask_group_header.png), url(../../images/small.jpg),
     linear-gradient(
       to right,
       $primaryColor 0%,
